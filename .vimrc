@@ -21,13 +21,13 @@ set t_Co=256
 colo leo
 set scrolloff=7
 set showmatch matchtime=1
-set foldmethod=indent
+"set foldmethod=indent
 
 set verbose=0
 
 " PHP Specific Settings
 autocmd FileType php noremap <C-L> :!/usr/bin/php -l %<CR>
-autocmd FileType php let php_folding=1
+"autocmd FileType php let php_folding=1
 autocmd FileType php let php_sql_query=1
 autocmd FileType php let php_htmlInStrings=1
 autocmd FileType php DoMatchParen
