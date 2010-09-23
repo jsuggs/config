@@ -1,3 +1,12 @@
+set nocompatible
+filetype plugin indent on
+"set mouse=a
+
+" Ruler Options
+set ruler
+set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%)
+
+set backspace=indent,eol,start
 set showmode
 set ignorecase
 set nowrapscan
@@ -8,7 +17,6 @@ set softtabstop=4
 set tabstop=4
 set smarttab
 set lbr
-set hardtabs=4
 set si
 set cpo=ceFs
 set sta
@@ -22,6 +30,8 @@ colo leo
 set scrolloff=7
 set showmatch matchtime=1
 "set foldmethod=indent
+set wildmenu
+set wildmode=list:longest,full  
 
 set verbose=0
 
