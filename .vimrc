@@ -46,3 +46,6 @@ inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i
 nnoremap <C-P> :call PhpDocSingle()<CR>
 vnoremap <C-P> :call PhpDocRange()<CR> 
 set tags=~/.vim/mytags/zf2
+
+" NERD_Tree Commands
+map <F10> :NERDTree<cr>
